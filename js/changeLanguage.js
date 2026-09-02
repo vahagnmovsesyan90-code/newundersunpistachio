@@ -9,9 +9,9 @@ function changeLanguage(lang) {
     localStorage.setItem("selectedLanguage", lang);
 
     const languageNames = {
-        en: "EN",
-		hy: "HY",
-		ru: "RU",
+        en: "Eng",
+		hy: "Հայ",
+		ru: "Рус",
     };
 
     // helper function
