@@ -35,9 +35,10 @@
     <body>
         <nav id="navbar">
             <div class="nav-container">
-                <a href="#home" class="logo-link">
+                <a href="#home" class="logo-link" aria-label="UnderSun — Home">
                     <svg width="150" height="50" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1020 269.43">
-                        <defs>
+                        <title>UnderSun — Home</title>
+						<defs>
                             <style>
                                 .st0 { fill: #295400; }
                             </style>
@@ -74,9 +75,9 @@
                             <button class="btn dropdown-toggle currentLang" type="button" data-bs-toggle="dropdown">Eng</button>
 
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" onclick="changeLanguage('en')">Eng</a></li>
-                                <li><a class="dropdown-item" onclick="changeLanguage('hy')">Հայ</a></li>
-                                <li><a class="dropdown-item" onclick="changeLanguage('ru')">Рус</a></li>
+                                <li><button type="button" class="dropdown-item" onclick="changeLanguage('en')">Eng</button></li>
+								<li><button type="button" class="dropdown-item" onclick="changeLanguage('hy')">Հայ</button></li>
+								<li><button type="button" class="dropdown-item" onclick="changeLanguage('ru')">Рус</button></li>
                             </ul>
                         </div>
                     </li>
@@ -98,9 +99,9 @@
 						<button class="btn dropdown-toggle currentLang" type="button" data-bs-toggle="dropdown">Eng</button>
 
 						<ul class="dropdown-menu dropdown-menu-end">
-							<li><a class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('en')">Eng</a></li>
-							<li><a class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('hy')">Հայ</a></li>
-							<li><a class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('ru')">Рус</a></li>
+							<li><button type="button" class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('en')">Eng</button></li>
+							<li><button type="button" class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('hy')">Հայ</button></li>
+							<li><button type="button" class="dropdown-item text-capitalize fs-5" onclick="changeLanguage('ru')">Рус</button></li>
 						</ul>
 					</div>
 				</li>
