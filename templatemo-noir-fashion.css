@@ -669,13 +669,11 @@ footer {
 /* Full-screen background video (hero) */
 .hero-bg-video {
 	position: absolute;
-	top: 65%;
-	left: 50%;
+	left: 0%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
-	transform: translate(-50%, -50%);
 	object-fit: cover;
 	z-index: 0;
 }
