@@ -41,6 +41,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"/>
+		
+		<link rel="preload" as="video" href="./video/fields.mp4" type="video/mp4" fetchpriority="high" />
     </head>
     <body>
         <nav id="navbar">
@@ -119,9 +121,9 @@
         </div>
 
         <section class="hero text-center" id="home">
-            <video class="hero-bg-video" autoplay muted loop playsinline>
-                <source src="./video/fields.mp4" type="video/mp4" />
-            </video>
+            <video class="hero-bg-video" autoplay muted loop playsinline fetchpriority="high" preload="auto">
+				<source src="./video/fields.mp4" type="video/mp4" />
+			</video>
             <div class="hero-video-overlay"></div>
 
 				<h1 class="hero-video-title display-5" id="title">
